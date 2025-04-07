@@ -38,7 +38,7 @@
     const year2 = today.getFullYear() - 2;
     const month = today.getMonth() + 1;
     const date = today.getDate();
-    let date_start = date; // ← let に変更！
+    let date_start = date; // ← let に変更！ constは再代入できない宣言！！
     let date_end = date;
 
     if (date == 1) {
